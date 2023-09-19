@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Hector Paniego</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a class="menu-button" href="#login">Iniciar Sesión</a></li>
+                <li><a class="menu-button" href="#redes-sociales">Redes Sociales</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="hero">
+            <h1>Web para practicar de Hector</h1>
+            <p>Carlos ponme un diez anda.</p>
+            <button id="learn-more-button">Aprende más</button>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <img src="feature1.jpg" alt="Característica 1">
+                <h2>Característica 1</h2>
+                <p>Descripción de la característica 1.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.jpg" alt="Característica 2">
+                <h2>Característica 2</h2>
+                <p>Descripción de la característica 2.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.jpg" alt="Característica 3">
+                <h2>Característica 3</h2>
+                <p>Descripción de la característica 3.</p>
+            </div>
+        </section>
+        <section id="busqueda">
+            <h2>Búsqueda en Tiempo Real</h2>
+            <input type="text" id="searchInput" placeholder="Buscar">
+            <ul id="searchResults">
+                <!-- Resultados de búsqueda en tiempo real se agregarán aquí -->
+            </ul>
+        </section>
+         <!-- Sección de formulario interactivo -->
+         <section id="formulario">
+            <h2>Formulario Interactivo</h2>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <!-- Sección de comentarios y sistemas de revisión -->
+        <section id="comentarios">
+            <h2>Comentarios y Sistemas de Revisión</h2>
+            <div id="commentsContainer">
+                <!-- Comentarios de usuarios se agregarán aquí -->
+            </div>
+        </section>
+                <!-- Sección de inicio de sesión de usuario -->
+                <section id="login">
+                    <h2>Iniciar Sesión de Usuario</h2>
+                    <form id="loginForm">
+                        <label for="username">Nombre de Usuario:</label>
+                        <input type="text" id="username" required>
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" required>
+                        <button type="submit">Iniciar Sesión</button>
+                    </form>
+                </section>
+                        <!-- Sección de integración de redes sociales -->
+        <section id="redes-sociales">
+            <h2>Integración de Redes Sociales</h2>
+            <div id="socialShare">
+                <!-- Botones para compartir en redes sociales se agregarán aquí -->
+            </div>
+        </section>
+        
+
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Hector Paniego</p>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="search.js"></script>
+    <script src="form.js"></script>
+    <script src="comments.js"></script>
+    <script src="login.js"></script>
+    <script src="social.js"></script>
+
+    
+</body>
+</html>
