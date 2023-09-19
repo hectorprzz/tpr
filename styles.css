@@ -92,6 +92,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    color: rgb(14,144,173);
+    outline: #ccc;
 }
 .menu-button {
     background-color: #333;
